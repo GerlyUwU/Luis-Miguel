@@ -1,11 +1,59 @@
 #introduccion{
     font-family: 'Roboto', sans-serif;
+    color: #fff ;
 }
 
 #imgmain{
- width: 50%;
-    height: 50%;
+ width: 100%;
+    height: 100%;
     position: relative; 
-    margin-left: 25%;
+   
+}
 
+nav{
+    background-color: #7003cf;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    margin-bottom: 1em;
+    
+}
+
+/* Quita el subrayado de todos los enlaces */
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: rgb(251, 251, 251); /* Cambia 'black' al color que prefieras para los enlaces */
+}
+
+/* Cambia el color de los enlaces cuando han sido visitados */
+a:visited {
+    color: rgb(255, 255, 255); /* Cambia este valor al color que prefieras para enlaces visitados */
+}
+
+/* Cambia el color de los enlaces al pasar el ratón */
+a:hover {
+    color: gray; /* Cambia este valor al color deseado para el hover */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px; /* Espacio alrededor de cada enlace */
+}
+body{
+    background-image: linear-gradient(to bottom, #070367, #11036b);
+}
+
+footer{
+    font-weight: bold;
+    padding:10px;
+    background-color: rgb(141, 123, 25);
+}
+
+footer p{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
