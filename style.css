@@ -53,14 +53,15 @@ body{
 }
 
 footer{
-    font-weight: bold;
     padding:10px;
     background-color: rgb(12, 191, 161);
+    
 }
 
 footer p{
     color: rgb(0, 0, 0);
     font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 li {
