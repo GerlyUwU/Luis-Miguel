@@ -70,6 +70,38 @@ li {
 .titulo1{
     text-align: center;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 15px;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: 10%;
+  }
+  
+  .gallery-item {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .gallery-item p {
+    padding: 10px;
+    margin: 0;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+  }
   
 
 
