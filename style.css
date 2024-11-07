@@ -57,3 +57,15 @@ footer p{
     color: rgb(0, 0, 0);
     font-weight: bolder;
 }
+
+li {
+    margin-bottom: 10px; /* Agrega un espacio de 10px entre los elementos de la lista */
+}
+
+.titulo1{
+    text-align: center;
+}
+  
+
+
+
