@@ -1,17 +1,22 @@
-#introduccion{
+.introduccion{
     font-family: 'Roboto', sans-serif;
     color: #fff ;
 }
+.introduccion p{
+    margin-bottom: 1em;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
-#imgmain{
+.portada{
  width: 100%;
     height: 100%;
     position: relative; 
-   
 }
 
 nav{
-    background-color: #7003cf;
+    background-color: #035bcf;
     color: #fff;
     padding: 15px;
     text-align: center;
@@ -50,7 +55,7 @@ body{
 footer{
     font-weight: bold;
     padding:10px;
-    background-color: rgb(141, 123, 25);
+    background-color: rgb(12, 191, 161);
 }
 
 footer p{
